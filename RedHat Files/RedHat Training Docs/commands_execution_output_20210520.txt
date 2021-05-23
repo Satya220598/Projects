@@ -1,0 +1,90 @@
+10.10.10.253
+sh run | in vtp mode
+    vtp mode transparent
+
+     sh ntp status
+    %NTP is not enabled.
+
+     sh run | in clock
+    
+
+     sh run | in service timestamps
+    service timestamps debug datetime msec, service timestamps log datetime msec
+
+     sh run | in username
+    username venkat password 0 venkat@123, username aravind password 0 aravind@123, username IN04413V password 0 Indpat@123, username INZ000Z3Q password 0 Anjadh@123, username ansible privilege 15 password 0 ansible@123, username kumar privilege 15 secret 5 $1$OSy1$O2TSB6L3S53vAmOuUU6.c/, username test privilege 15 secret 5 $1$guin$YNT5eilGnIlNKXmgCr.7L1, username test1 privilege 15 secret 5 $1$FHRu$bLE8fy2OG9bu2s/u5RfVL0
+
+     sh run | in ip domain-name
+    ip domain-name lab.ibm.com
+
+     sh run | in http
+    ip http server, ip http secure-server
+
+     sh run | in banner
+    
+
+     sh run | in enable password
+    enable password ibm@123
+
+     sh run | in enable secret
+    enable secret 5 $1$11v9$PAVA9BKL6Mgda/ly3z8bO.
+
+     sh run | in password-encryption
+    no service password-encryption
+
+     sh run | in vtp mode
+    vtp mode transparent
+
+     sh run | in vtp domain
+    
+
+     sh run | in logging
+    
+
+     sh run | in snmp-server
+    
+
+     sh run | in tacacs-server
+    
+
+     
+
+10.10.10.201
+sh run | in telnet
+    telnet timeout 5
+
+     sh run | in ssh
+    aaa authentication ssh console LOCAL , ssh stricthostkeycheck, ssh timeout 5, ssh version 2, ssh key-exchange group dh-group14-sha256, ssh 0.0.0.0 0.0.0.0 fw-outside, ssh 0.0.0.0 0.0.0.0 fw-inside, ssh 0.0.0.0 0.0.0.0 fw-mgt
+
+     sh run | in username
+    username test1 password ***** pbkdf2 privilege 15, username test password ***** pbkdf2 privilege 15, username aravind password ***** pbkdf2, username venkat password ***** pbkdf2, username ansible password ***** pbkdf2
+
+     sh run | in passwd
+    
+
+     sh run | in banner
+    
+
+     sh run | in permit ip
+    access-list test extended permit ip any any
+
+     sh run | in any
+    access-list test extended permit ip any any
+
+     sh run | in any any
+    access-list test extended permit ip any any
+
+     sh run | in logging
+    
+
+     sh ntp status
+    
+
+     sh run access-group
+    access-group test in interface fw-outside, access-group test in interface fw-inside, access-group test in interface fw-mgt
+
+     sh ip
+    System IP Addresses:, Interface                Name                   IP address      Subnet mask     Method , GigabitEthernet0/0.1009  fw-outside             10.10.9.2       255.255.255.0   manual, GigabitEthernet0/1.1011  fw-inside              10.10.11.250    255.255.255.0   manual, Management0/0            fw-mgt                 10.10.10.201    255.255.255.0   CONFIG, Current IP Addresses:, Interface                Name                   IP address      Subnet mask     Method , GigabitEthernet0/0.1009  fw-outside             10.10.9.2       255.255.255.0   manual, GigabitEthernet0/1.1011  fw-inside              10.10.11.250    255.255.255.0   manual, Management0/0            fw-mgt                 10.10.10.201    255.255.255.0   CONFIG
+
+     
+
