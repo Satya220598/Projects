@@ -1,0 +1,88 @@
+[web]
+host2 ansible_host=127.0.0.1 ansible_port=2222  ansible_user=vagrant  ansible_private_key_file=/home/satya/Private_key
+host2 ansible_host=127.0.0.1 ansible_port=2200  ansible_user=vagrant  ansible_private_key_file=/home/satya/Private_key
+control ansible_host=127.0.0.1 ansible_port=2201  ansible_user=vagrant  ansible_private_key_file=/home/satya/Private_key
+
+
+
+
+Host2 - ssh vagrant@127.0.0.1 -p 2200 -i /home/satya/Private_key
+
+Host1-2222
+Control -2201
+
+Windows10 - ssh vagrant@192.168.33.15
+
+linux update
+
+ansible-galaxy collection install ansible.netcommon - TO Install Ansible.netcommon.network_cli
+
+Ubuntu virtual Environment
+
+source my-project-env/bin/activate
+
+deactivate
+
+Sandbox link
+
+https://devnetsandbox.cisco.com/RM/Diagram/Index/27d9747a-db48-4565-8d44-df318fce37ad?diagramType=Topology
+
+FlackBox Link
+
+https://www.flackbox.com/vyos-router-installation-configuration-tutorial
+
+Box Link APD 
+
+https://ibm.box.com/s/iqxhqyheakmbvyw1nifc7xnrr0ivx4sr
+
+GitHub Link
+
+https://github.ibm.com/ritchand/DSTMexicoRepo
+
+Cisco Switch
+ssh developer@ios-xe-mgmt.cisco.com -p 8181
+
+************************************************************************
+**********************CPS Network Automation****************************
+
+Environment login password : RLv]7^"]1;[u+0'
+
+User Login password for IN000GT3 = Satyog@123
+              
+Routers :
+  [BLR]
+    [switches]
+        10.10.10.252
+    [firewalls]
+        10.10.10.200
+[GGN]
+    [switches]
+        10.10.10.253
+    [firewalls]
+        10.10.10.201 
+
+LUFRPT1HZllkQVc0MndtalNOdk5tYkZ2ZUJlMlFqUFE9WjRlTm5RaEFvNll5V0dGWUg0VnN3UzNXWTNPVGJydllkWGFycCtIYWhhVGlraHRCL0MraUQyNnpTbmVHT2FySQ==
+
+220-222 - pending exercise
+
+iterate through list items
+#"{% for item in list_var1 %}{{ item + '\n'}}{% endfor %}"
+
+Code for log
+
+#- name: Copy ansible.log
+   # connection: local
+   # command: mv /home/shared/logs/ansible.log /home/shared/logs/ansible.{{ lookup('pipe', 'date +%Y%m%d') }}.log
+   # run_once: true
+
+set cli pager off
+set cli config-output-format json
+configure
+show
+
+(container-tag: cli leaf-tag: pager value: on pop-tag:)
+((eol-matched: . #t) (cli-handler: . set-pager-handler) (context-inserted-at-end-p: . #f))
+
+<request cmd="set" cookie="6108848277371217" uid="1003"><operations><show><system><info/></system></show></operations></request>
+
+https://www.ipspace.net/kb/Ansible/Parsing_Text_Printouts_Ansible.html
