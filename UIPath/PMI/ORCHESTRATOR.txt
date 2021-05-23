@@ -1,7 +1,0 @@
-Log in to Orchestrator at platform.uipath.com, navigate to Services from the menu on the left and click on your service. If you don't have an account, create one using your email.
-
-Navigate to Machines from the menu on the left and create a new machine. Specify the name of the machine as it is in the Orchestrator settings of the robot in your system tray.
-
-Navigate to Robots from the menu on the left, click on the '+' and select Standard robot. Choose the machine created earlier, give it a name and add the domain\username (taken from the Command Prompt in Windows, using the 'whoami' command). The password is only needed for unattended robots. Select the robot type and input it a description.
-Open the Orchestrator settings of the robot in the tray, add the Orchestrator URL and the machine key copied from the machine provisioned in Orchestrator.
-Check if robot is connected and licensed.
