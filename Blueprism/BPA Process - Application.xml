@@ -1,0 +1,200 @@
+﻿<process name="Application" version="1.0" bpversion="6.6.0.15260" narrative="" byrefcollection="true" preferredid="92d967df-456d-402f-9c06-a3cd8878fbc1">
+  <view>
+    <camerax>-74</camerax>
+    <cameray>201</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="583e3174-187a-4340-ab5d-233198cefe4f" name="Start" type="Start">
+    <display x="-195" y="-135" />
+    <onsuccess>9ea10a2a-5f2e-42d0-8b86-c04286ac6fab</onsuccess>
+  </stage>
+  <stage stageid="1aabc176-e5e9-4565-bbd2-1b1c9ec4595c" name="End" type="End">
+    <display x="-225" y="375" />
+  </stage>
+  <stage stageid="ec7a8ad1-c6a7-4b05-9c98-1d860fac6a4a" name="Stage1" type="ProcessInfo">
+    <display x="-435" y="-90" w="150" h="90" />
+  </stage>
+  <stage stageid="9ea10a2a-5f2e-42d0-8b86-c04286ac6fab" name="MS Excel VBO::Create Instance" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-135" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>4d76856e-1469-467b-bdd9-69b76d262008</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="4d76856e-1469-467b-bdd9-69b76d262008" name="MS Excel VBO::Open Workbook" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="-135" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\AddalaNagaSatyaYogan\Desktop\Excercise 1.xls&quot;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>be5afed2-d28f-4dd5-a209-5a26f4f49986</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="2861d1af-54ef-436c-bb05-14fdf6eb8de6" name="handle" type="Data">
+    <display x="-105" y="-30" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c3bea8e3-b18c-4215-b5c4-7a8d252d5777" name="Workbook Name" type="Data">
+    <display x="-180" y="30" w="90" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="be5afed2-d28f-4dd5-a209-5a26f4f49986" name="MS Excel VBO::Get Worksheet As Collection" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="-75" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the worksheet which should be retrieved resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which contains the sheet required. The default empty text indicates the currently active workbook on the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet within the specified workbook which should be written to a collection. The default empty text indicates the currently active worksheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Data" friendlyname="Data" narrative="The collection containing the data from the specified worksheet - the column IDs will be gleaned from the first row on the sheet being retrieved." stage="stock" />
+    </outputs>
+    <onsuccess>8d8195f1-865d-4b62-aa7b-1087caa54faf</onsuccess>
+    <resource object="MS Excel VBO" action="Get Worksheet As Collection" />
+  </stage>
+  <stage stageid="30e393c0-568c-4767-99cf-cd220b3a091e" name="stock" type="Collection">
+    <display x="-30" y="15" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="8d8195f1-865d-4b62-aa7b-1087caa54faf" name="Launch" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="-15" />
+    <onsuccess>b82a616d-45ea-40e2-b60e-44084348e427</onsuccess>
+    <resource object="open chrome" action="Launch" />
+  </stage>
+  <stage stageid="8e0d25a5-a89c-4b9b-a31c-f4e073e51ce4" name="Go" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="150" />
+    <onsuccess>83e74aaa-245f-4278-82d3-8a64a6491a50</onsuccess>
+    <resource object="open chrome" action="go" />
+  </stage>
+  <stage stageid="c1fc3a96-f51e-4af2-8517-bacdc119bae1" name="ip" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="105" />
+    <inputs>
+      <input type="text" name="ip" friendlyname="ip" expr="[stock.NSE Symbol]" />
+    </inputs>
+    <onsuccess>8e0d25a5-a89c-4b9b-a31c-f4e073e51ce4</onsuccess>
+    <resource object="open chrome" action="input" />
+  </stage>
+  <stage stageid="b82a616d-45ea-40e2-b60e-44084348e427" name="Loop Start1" type="LoopStart">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="60" />
+    <onsuccess>c1fc3a96-f51e-4af2-8517-bacdc119bae1</onsuccess>
+    <groupid>0d45ed86-43cf-45c4-8c2e-319f26715653</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>stock</loopdata>
+  </stage>
+  <stage stageid="92772fb9-5d6b-4831-89dd-0d052c1ed3f9" name="Loop End1" type="LoopEnd">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="375" />
+    <onsuccess>2fbdcd2a-f27c-4158-b7ad-258b824aa5b1</onsuccess>
+    <groupid>0d45ed86-43cf-45c4-8c2e-319f26715653</groupid>
+  </stage>
+  <stage stageid="83e74aaa-245f-4278-82d3-8a64a6491a50" name="open" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="195" />
+    <outputs>
+      <output type="text" name="Open Price" friendlyname="Open Price" stage="stock.Open" />
+    </outputs>
+    <onsuccess>00a63e04-3d41-43e6-8952-f8f5243a12d2</onsuccess>
+    <resource object="open chrome" action="open" />
+  </stage>
+  <stage stageid="00a63e04-3d41-43e6-8952-f8f5243a12d2" name="High" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="240" />
+    <outputs>
+      <output type="text" name="end" friendlyname="end" stage="end" />
+    </outputs>
+    <onsuccess>fa27aa05-0188-4225-9db1-d8e380bde93d</onsuccess>
+    <resource object="open chrome" action="High" />
+  </stage>
+  <stage stageid="fa27aa05-0188-4225-9db1-d8e380bde93d" name="Low" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="285" />
+    <outputs>
+      <output type="text" name="Low End" friendlyname="Low End" stage="Low End" />
+    </outputs>
+    <onsuccess>6de3abe7-ba5c-44a9-9f26-f9f7a0c6be01</onsuccess>
+    <resource object="open chrome" action="Low" />
+  </stage>
+  <stage stageid="6de3abe7-ba5c-44a9-9f26-f9f7a0c6be01" name="Current" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="90" y="330" />
+    <outputs>
+      <output type="text" name="Current End" friendlyname="Current End" stage="Current End" />
+    </outputs>
+    <onsuccess>92772fb9-5d6b-4831-89dd-0d052c1ed3f9</onsuccess>
+    <resource object="open chrome" action="Current" />
+  </stage>
+  <stage stageid="2fbdcd2a-f27c-4158-b7ad-258b824aa5b1" name="MS Excel VBO::Write Collection" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="375" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the specified collection should be written. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook within which the data should be written. The default empty value indicates the current workbook within the specified instance." expr="[Workbook Name]" />
+      <input type="collection" name="Collection" friendlyname="Collection" narrative="The collection containing the data which should be written to the worksheet." expr="[stock]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet on which the given data should be written. The default empty value indicates the current sheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+      <input type="text" name="Cell Reference" friendlyname="Cell Reference" narrative="The reference at which the collection should be written." expr="&quot;A2:A37&quot;" />
+      <input type="flag" name="Include Column Names" friendlyname="Include Column Names" narrative="True to indicate that the column names from the collection should be written out as the first row; False to ignore the column names and just write out the data." expr="&quot;False&quot;" />
+    </inputs>
+    <onsuccess>fe2e69ad-c734-411f-affe-e9bdd1b71faf</onsuccess>
+    <resource object="MS Excel VBO" action="Write Collection" />
+  </stage>
+  <stage stageid="fe2e69ad-c734-411f-affe-e9bdd1b71faf" name="MS Excel VBO::Show" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="-120" y="375" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance which should have its window displayed. The default of zero indicates the currently active instance." expr="[handle]" />
+    </inputs>
+    <onsuccess>1aabc176-e5e9-4565-bbd2-1b1c9ec4595c</onsuccess>
+    <resource object="MS Excel VBO" action="Show" />
+  </stage>
+  <stage stageid="216d9e8b-0428-47a2-a9cf-d494723f2b98" name="Open Price" type="Data">
+    <display x="165" y="195" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="34bef698-cc10-4a01-a2d4-68f687e902b7" name="end" type="Data">
+    <display x="165" y="240" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="7476518a-2c50-4d6d-a65c-c6857c03ed59" name="Low End" type="Data">
+    <display x="165" y="285" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5a913a48-5a02-4af0-bfe9-bbff112e8100" name="Current End" type="Data">
+    <display x="165" y="330" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+</process>

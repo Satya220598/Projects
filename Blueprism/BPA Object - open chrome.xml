@@ -1,0 +1,1086 @@
+﻿<process name="open chrome" version="1.0" bpversion="6.6.0.15260" narrative="" byrefcollection="true" type="object" runmode="Exclusive" preferredid="ffd855e6-8321-42af-8ff1-44b0ddcf4a7c">
+  <appdef>
+    <element name="open webapp">
+      <id>7663ece1-6d4a-4571-b365-d3a6f1507dc0</id>
+      <element name="open google">
+        <id>297d2ca3-dea5-4e25-9dfa-83fc1370fbac</id>
+        <type>HTMLEdit</type>
+        <basetype>HTMLEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="48" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="427" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="34" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(5)/FORM(1)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(2)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="gLFyf gsfi" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="Search" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="q" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://www.google.com/#spf=1571743573209" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:606,401,435,1033" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Search">
+        <id>2696ad61-997a-4f05-912b-dbaf1437809c</id>
+        <type>HTMLButton</type>
+        <basetype>HTMLButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="103" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="29" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="127" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="36" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(5)/FORM(1)/DIV(2)/DIV(1)/DIV(3)/CENTER(1)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="gNO89b" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="submit" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="btnK" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="9" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="Google Search" />
+          </attribute>
+          <attribute name="Enabled">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://www.google.com/#spf=1571743573209" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:661,471,507,788" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="open">
+        <id>3b5405b8-19d2-4cae-b7e4-9f91db29cc27</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="155" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="151" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="16" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(7)/DIV(3)/DIV(10)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/g-card-section(2)/DIV(1)/DIV(1)/DIV(1)/TABLE(1)/TBODY(1)/TR(1)/TD(2)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="TD" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="iyjjgb" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="4,165.00" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://www.google.com/search?ei=bfSuXdjkC8jFvQT8uLCoDw&amp;q=bajaj+finance+nse&amp;oq=bajaj&amp;gs_l=psy-ab.1.5.0i131i67i70i250j0i67l2j0i131j0i131i67j0i67j0j0i67j0j0i131.54700.56452..59573...0.1..0.175.774.0j5......0....1..gws-wiz.......0i71.IShHtHuw3-U#spf=1571746986048" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:322,586,602,472" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="High">
+        <id>11576166-5fea-4270-9470-deee6c7836ab</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="155" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="20" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="151" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="16" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(7)/DIV(3)/DIV(10)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/g-card-section(2)/DIV(1)/DIV(1)/DIV(1)/TABLE(1)/TBODY(1)/TR(2)/TD(2)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="TD" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="iyjjgb" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="4,219.85" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://www.google.com/search?source=hp&amp;ei=mPWuXeqMLIPhvgSs3brICQ&amp;q=bajaj+finance+nse&amp;oq=&amp;gs_l=psy-ab.12...0.0..27827...0.0..0.0.0.......0......gws-wiz.&amp;ved=0ahUKEwjquIbY7q_lAhWDsI8KHayuDpkQ4dUDCAk#spf=1571747252934" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:322,682,699,472" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Low">
+        <id>76b1697e-ec94-4004-a30b-34923add56d8</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="155" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="39" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="151" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="16" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(7)/DIV(3)/DIV(10)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/g-card-section(2)/DIV(1)/DIV(1)/DIV(1)/TABLE(1)/TBODY(1)/TR(3)/TD(2)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="TD" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="iyjjgb" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="4,000.10" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://www.google.com/search?source=hp&amp;ei=mPWuXeqMLIPhvgSs3brICQ&amp;q=bajaj+finance+nse&amp;oq=&amp;gs_l=psy-ab.12...0.0..27827...0.0..0.0.0.......0......gws-wiz.&amp;ved=0ahUKEwjquIbY7q_lAhWDsI8KHayuDpkQ4dUDCAk#spf=1571747252934" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:322,701,717,472" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="current">
+        <id>bb8d7fb4-3760-4562-ab66-eca18dea5eb3</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="17" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="71" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="109" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="31" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(7)/DIV(3)/DIV(10)/DIV(1)/DIV(2)/DIV(1)/DIV(2)/DIV(2)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/g-card-section(1)/DIV(1)/g-card-section(1)/SPAN(1)/SPAN(1)/SPAN(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="SPAN" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="IsqQVc NprOob i862HhKDEdXw-zJFzKq8ukm8" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="4,050.00" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="https://www.google.com/search?ei=CPKuXZqGHoHfvATJy5jgBw&amp;q=bajaj+finance+nse&amp;oq=bajaj&amp;gs_l=psy-ab.1.5.0i131i67i70i250j0i67l2j0i131j0i131i67j0i67j0j0i67j0j0i131.10549.14010..20196...1.2..1.236.1499.0j8j1......0....1..gws-wiz.....6..0i71j0i362i308i154i357.VZWgdJY_zbs#spf=1571746334060" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:167,321,352,276" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>HTMLLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files (x86)\Internet Explorer\iexplore.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>https://www.google.com</value>
+        </parameter>
+        <parameter>
+          <name>ActiveTabOnly</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>UseJavaInBrowser</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ExcludeHTC</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="dffbe636-9c10-4647-9361-f041c77fa429" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="8065b665-a04c-4631-893b-f06ff367285c" type="Normal" published="True">
+    <name>input</name>
+    <view>
+      <camerax>-63</camerax>
+      <cameray>21</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="0111347a-a9ec-43b3-87f7-0d8a35b26dd9" type="Normal" published="False">
+    <name>Attach</name>
+    <view>
+      <camerax>54</camerax>
+      <cameray>96</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="03dc8c2d-c0b3-4b71-8411-e7bd2af925ba" type="Normal" published="True">
+    <name>go</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>21</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="69a7e60b-7285-4e60-b7f7-464c054a3027" type="Normal" published="True">
+    <name>open</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="4f103ff9-15bf-4bbe-b9b8-fdedadb0c8e5" type="Normal" published="True">
+    <name>High</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="52d0da19-1bd3-4a9c-8cba-71c21047f2e8" type="Normal" published="True">
+    <name>Low</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="41932f12-3f11-49b6-99ff-c4766fb51f6f" type="Normal" published="True">
+    <name>Current</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="b9f3f18b-7d5a-4ded-a9fa-5b4418843566" type="Normal" published="True">
+    <name>Launch</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-44</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="529dee14-1709-49b3-8bf5-85fd693b9c2b" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>28f7804e-8390-4f8c-95b7-943611f3ab99</onsuccess>
+  </stage>
+  <stage stageid="28f7804e-8390-4f8c-95b7-943611f3ab99" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="da8e5415-ec6f-4a46-ac58-1e4f50584a6f" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="f53a7789-2570-4dca-b0f3-9d8298cb09f1" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>dffbe636-9c10-4647-9361-f041c77fa429</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="1b37fa15-cd8d-4e5a-a6db-44f9bcbd33a1" name="Start" type="Start">
+    <subsheetid>dffbe636-9c10-4647-9361-f041c77fa429</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>5060edf5-3e0d-445a-a61a-fa3c1e280729</onsuccess>
+  </stage>
+  <stage stageid="5060edf5-3e0d-445a-a61a-fa3c1e280729" name="End" type="End">
+    <subsheetid>dffbe636-9c10-4647-9361-f041c77fa429</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="4afe1f67-1050-4454-9dca-4178b8e55c1d" name="input" type="SubSheetInfo">
+    <subsheetid>8065b665-a04c-4631-893b-f06ff367285c</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="3b5814ce-d4de-4142-9cdf-d6e46ce17443" name="Start" type="Start">
+    <subsheetid>8065b665-a04c-4631-893b-f06ff367285c</subsheetid>
+    <loginhibit />
+    <display x="15" y="-120" />
+    <inputs>
+      <input type="text" name="ip" stage="ip1" />
+    </inputs>
+    <onsuccess>74650f59-f473-4c54-b830-bf96bbd6cca5</onsuccess>
+  </stage>
+  <stage stageid="be771cef-9334-48b9-8fdf-6dd4caf91381" name="End" type="End">
+    <subsheetid>8065b665-a04c-4631-893b-f06ff367285c</subsheetid>
+    <loginhibit />
+    <display x="15" y="150" />
+  </stage>
+  <stage stageid="897fe711-4217-40b5-af01-3b17c6f93f15" name="Note1" type="Note">
+    <subsheetid>dffbe636-9c10-4647-9361-f041c77fa429</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="42af7aa4-adbc-4bb7-932b-63fa63505de4" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="3adb58aa-0f05-4533-b57e-9b486030a002" name="ip" type="Data">
+    <subsheetid>8065b665-a04c-4631-893b-f06ff367285c</subsheetid>
+    <display x="375" y="135" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">Test</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="74650f59-f473-4c54-b830-bf96bbd6cca5" name="Writer1" type="Write">
+    <subsheetid>8065b665-a04c-4631-893b-f06ff367285c</subsheetid>
+    <loginhibit />
+    <display x="15" y="15" />
+    <onsuccess>be771cef-9334-48b9-8fdf-6dd4caf91381</onsuccess>
+    <step expr="[ip1]&amp; &quot; nse&quot;">
+      <element id="297d2ca3-dea5-4e25-9dfa-83fc1370fbac" />
+    </step>
+  </stage>
+  <stage stageid="5e2f741f-3739-4e6a-9bf9-c97b27ebd4c7" name="Launch" type="SubSheetInfo">
+    <subsheetid>b9f3f18b-7d5a-4ded-a9fa-5b4418843566</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="0f2a498e-8c5c-4335-b0d8-ed50162057be" name="Start" type="Start">
+    <subsheetid>b9f3f18b-7d5a-4ded-a9fa-5b4418843566</subsheetid>
+    <loginhibit />
+    <display x="15" y="-135" />
+    <onsuccess>c689bc34-b5d2-4f76-9c59-b72336490d98</onsuccess>
+  </stage>
+  <stage stageid="894c4dde-b134-425a-8849-891d84e47f10" name="End" type="End">
+    <subsheetid>b9f3f18b-7d5a-4ded-a9fa-5b4418843566</subsheetid>
+    <loginhibit />
+    <display x="15" y="75" />
+  </stage>
+  <stage stageid="c689bc34-b5d2-4f76-9c59-b72336490d98" name="Navigate1" type="Navigate">
+    <subsheetid>b9f3f18b-7d5a-4ded-a9fa-5b4418843566</subsheetid>
+    <loginhibit />
+    <display x="15" y="-30" />
+    <onsuccess>894c4dde-b134-425a-8849-891d84e47f10</onsuccess>
+    <step>
+      <element id="7663ece1-6d4a-4571-b365-d3a6f1507dc0" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ActiveTabOnly</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>UseJavaInBrowser</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ExcludeHTC</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="2221c31e-17ff-48e0-a683-12faf4072f78" name="go" type="SubSheetInfo">
+    <subsheetid>03dc8c2d-c0b3-4b71-8411-e7bd2af925ba</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="0b840526-8e68-4fa1-93cd-df292a24e6c0" name="Start" type="Start">
+    <subsheetid>03dc8c2d-c0b3-4b71-8411-e7bd2af925ba</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>33df92c9-abbd-47e1-8bf8-67eae043607b</onsuccess>
+  </stage>
+  <stage stageid="b84dec74-6c26-4cf6-81ab-cffa946f89cd" name="End" type="End">
+    <subsheetid>03dc8c2d-c0b3-4b71-8411-e7bd2af925ba</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="33df92c9-abbd-47e1-8bf8-67eae043607b" name="Navigate2" type="Navigate">
+    <subsheetid>03dc8c2d-c0b3-4b71-8411-e7bd2af925ba</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>b84dec74-6c26-4cf6-81ab-cffa946f89cd</onsuccess>
+    <step>
+      <element id="2696ad61-997a-4f05-912b-dbaf1437809c" />
+      <action>
+        <id>HTMLClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="a1c61359-7af6-4c59-9045-6f3b0199034e" name="open" type="SubSheetInfo">
+    <subsheetid>69a7e60b-7285-4e60-b7f7-464c054a3027</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="4afe1885-3c17-4961-a436-c1347fc70d43" name="Start" type="Start">
+    <subsheetid>69a7e60b-7285-4e60-b7f7-464c054a3027</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>f9c20a37-954e-4efa-88a9-0d1234d32860</onsuccess>
+  </stage>
+  <stage stageid="c57d2057-3046-4a1e-8ff5-92a80cf94f48" name="End" type="End">
+    <subsheetid>69a7e60b-7285-4e60-b7f7-464c054a3027</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+    <outputs>
+      <output type="text" name="Open Price" stage="open" />
+    </outputs>
+  </stage>
+  <stage stageid="f9c20a37-954e-4efa-88a9-0d1234d32860" name="open" type="Read">
+    <subsheetid>69a7e60b-7285-4e60-b7f7-464c054a3027</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>c57d2057-3046-4a1e-8ff5-92a80cf94f48</onsuccess>
+    <step stage="open">
+      <element id="3b5405b8-19d2-4cae-b7e4-9f91db29cc27" />
+      <action>
+        <id>ReadCurrentValue</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="0845ca21-88d4-4373-a577-f7a8e30d0335" name="open" type="Data">
+    <subsheetid>69a7e60b-7285-4e60-b7f7-464c054a3027</subsheetid>
+    <display x="90" y="-15" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6b3a7837-fe80-44c1-83ee-9be16e787007" name="High" type="SubSheetInfo">
+    <subsheetid>4f103ff9-15bf-4bbe-b9b8-fdedadb0c8e5</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="4ebc511a-7962-4d39-aea4-9b437c27d7c4" name="Start" type="Start">
+    <subsheetid>4f103ff9-15bf-4bbe-b9b8-fdedadb0c8e5</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>929f0669-bf27-482f-bed7-a1eee02e8ce8</onsuccess>
+  </stage>
+  <stage stageid="1c6638c2-3da8-40b5-bd01-9245fdd7214f" name="End" type="End">
+    <subsheetid>4f103ff9-15bf-4bbe-b9b8-fdedadb0c8e5</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+    <outputs>
+      <output type="text" name="end" stage="Value from High" />
+    </outputs>
+  </stage>
+  <stage stageid="929f0669-bf27-482f-bed7-a1eee02e8ce8" name="High" type="Read">
+    <subsheetid>4f103ff9-15bf-4bbe-b9b8-fdedadb0c8e5</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>1c6638c2-3da8-40b5-bd01-9245fdd7214f</onsuccess>
+    <step stage="Value from High">
+      <element id="11576166-5fea-4270-9470-deee6c7836ab" />
+      <action>
+        <id>ReadCurrentValue</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="e5eaa8b7-8b2d-4c29-8669-0c4dee16fb37" name="Value from High" type="Data">
+    <subsheetid>4f103ff9-15bf-4bbe-b9b8-fdedadb0c8e5</subsheetid>
+    <display x="90" y="-15" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a82cba5d-8b28-48f2-9b7d-9d07a3159613" name="Low" type="SubSheetInfo">
+    <subsheetid>52d0da19-1bd3-4a9c-8cba-71c21047f2e8</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="845a511d-5889-4d9c-841d-800670e68a26" name="Start" type="Start">
+    <subsheetid>52d0da19-1bd3-4a9c-8cba-71c21047f2e8</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>adcd8337-c1f7-41ab-8e25-f49dcc7a6e26</onsuccess>
+  </stage>
+  <stage stageid="514e12aa-6073-41ba-9ba6-bcec95ffa56a" name="End" type="End">
+    <subsheetid>52d0da19-1bd3-4a9c-8cba-71c21047f2e8</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+    <outputs>
+      <output type="text" name="Low End" stage="Value from Low" />
+    </outputs>
+  </stage>
+  <stage stageid="adcd8337-c1f7-41ab-8e25-f49dcc7a6e26" name="Low" type="Read">
+    <subsheetid>52d0da19-1bd3-4a9c-8cba-71c21047f2e8</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>514e12aa-6073-41ba-9ba6-bcec95ffa56a</onsuccess>
+    <step stage="Value from Low">
+      <element id="76b1697e-ec94-4004-a30b-34923add56d8" />
+      <action>
+        <id>ReadCurrentValue</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="31f1d66c-fb9f-4e14-bb8a-7b879064a507" name="Value from Low" type="Data">
+    <subsheetid>52d0da19-1bd3-4a9c-8cba-71c21047f2e8</subsheetid>
+    <display x="105" y="-15" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d9c524ee-3928-45cc-bd8b-813efd72653e" name="Current" type="SubSheetInfo">
+    <subsheetid>41932f12-3f11-49b6-99ff-c4766fb51f6f</subsheetid>
+    <display x="-390" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="0d41eefb-fb2e-496a-b586-d5eef4ad0eb9" name="Start" type="Start">
+    <subsheetid>41932f12-3f11-49b6-99ff-c4766fb51f6f</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>c619072f-a784-4d1c-85e5-4b4b1c196a61</onsuccess>
+  </stage>
+  <stage stageid="6870e406-53b4-4b4b-b50e-75ea38ded6a7" name="End" type="End">
+    <subsheetid>41932f12-3f11-49b6-99ff-c4766fb51f6f</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+    <outputs>
+      <output type="text" name="Current End" stage="Value from current" />
+    </outputs>
+  </stage>
+  <stage stageid="c619072f-a784-4d1c-85e5-4b4b1c196a61" name="Current" type="Read">
+    <subsheetid>41932f12-3f11-49b6-99ff-c4766fb51f6f</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>6870e406-53b4-4b4b-b50e-75ea38ded6a7</onsuccess>
+    <step stage="Value from current">
+      <element id="bb8d7fb4-3760-4562-ab66-eca18dea5eb3" />
+      <action>
+        <id>ReadCurrentValue</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="53e862a2-8d40-4845-9261-1a2d8a15423e" name="Value from current" type="Data">
+    <subsheetid>41932f12-3f11-49b6-99ff-c4766fb51f6f</subsheetid>
+    <display x="90" y="-15" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="3049066d-948b-41e9-9452-a89c97d2207c" name="Attach" type="SubSheetInfo">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="-420" y="-135" w="150" h="90" />
+  </stage>
+  <stage stageid="91f08f88-86ed-4489-9793-b7e79cab7737" name="Start" type="Start">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="-75" y="-30" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Window Title" narrative="Window Title" stage="Input Title" />
+      <input type="number" name="Retry limit" narrative="Number of reries for attach" stage="Retry Limit" />
+    </inputs>
+    <onsuccess>e540430f-5c68-410b-988c-935b53165dc1</onsuccess>
+  </stage>
+  <stage stageid="d9ecdd24-b5a8-45da-9e92-d01f83e18f6f" name="End" type="End">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="-75" y="390" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="flag" name="Attached" stage="Attached" />
+    </outputs>
+  </stage>
+  <stage stageid="bd35224f-bbe5-43ca-bc92-ecd657e96001" name="Attach" type="Navigate">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <loginhibit />
+    <display x="-75" y="225" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>4caa6421-8469-4adb-8cc8-e12c579e0f77</onsuccess>
+    <step>
+      <element id="22988440-9daa-4515-8611-1003bffe4645" />
+      <action>
+        <id>AttachApplication</id>
+        <arguments>
+          <argument>
+            <id>WindowTitlesCollection</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>WindowTitle</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessName</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ChildIndex</id>
+            <value>0</value>
+          </argument>
+          <argument>
+            <id>ProcessID</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>Username</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="8f699a02-4af6-4825-9976-ea350984b478" name="Recover1" type="Recover">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <loginhibit />
+    <display x="30" y="255" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>04b4fd55-8682-4c44-9579-38666082cd06</onsuccess>
+  </stage>
+  <stage stageid="04b4fd55-8682-4c44-9579-38666082cd06" name="Resume1" type="Resume">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <loginhibit />
+    <display x="30" y="330" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>3987b38a-3e88-43a1-bed8-fb281a2f6f59</onsuccess>
+  </stage>
+  <stage stageid="4caa6421-8469-4adb-8cc8-e12c579e0f77" name="Attached" type="Calculation">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="-75" y="330" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>d9ecdd24-b5a8-45da-9e92-d01f83e18f6f</onsuccess>
+    <calculation expression="True" stage="Attached" />
+  </stage>
+  <stage stageid="e540430f-5c68-410b-988c-935b53165dc1" name="Attached" type="Read">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="-75" y="45" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>25734d76-2b7a-4938-ae5c-76ce3a1641bf</onsuccess>
+    <step stage="Attached">
+      <element id="7663ece1-6d4a-4571-b365-d3a6f1507dc0" />
+      <action>
+        <id>IsConnected</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="25734d76-2b7a-4938-ae5c-76ce3a1641bf" name="Attached?" type="Decision">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="-75" y="120" w="90" h="60" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <decision expression="[Attached]" />
+    <ontrue>3e239dca-18d5-464c-b0d1-16dfdcf40dc6</ontrue>
+    <onfalse>bd35224f-bbe5-43ca-bc92-ecd657e96001</onfalse>
+  </stage>
+  <stage stageid="3e239dca-18d5-464c-b0d1-16dfdcf40dc6" name="End4" type="End">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="45" y="120" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="flag" name="Attached" stage="Attached" />
+    </outputs>
+  </stage>
+  <stage stageid="4bbdaaf0-3bbe-48b4-a492-9db418701b7f" name="Attached" type="Data">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="390" y="45" w="120" h="30" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>False</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="3987b38a-3e88-43a1-bed8-fb281a2f6f59" name="Maximum Attempts reached?" type="Decision">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <loginhibit />
+    <display x="180" y="330" w="90" h="60" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <decision expression="[Retry Count]&gt;[Retry Limit]" />
+    <ontrue>093746e0-0559-43f2-856e-77f53f6e1b8f</ontrue>
+    <onfalse>adfa9f0f-d83f-4f4b-83c6-0b8b6c3c49dd</onfalse>
+  </stage>
+  <stage stageid="adfa9f0f-d83f-4f4b-83c6-0b8b6c3c49dd" name="Increase Count" type="Calculation">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <loginhibit />
+    <display x="180" y="225" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>78ed010d-873f-4146-905e-b3ee5a9c71e7</onsuccess>
+    <calculation expression="[Retry Count]+1" stage="Retry Count" />
+  </stage>
+  <stage stageid="093746e0-0559-43f2-856e-77f53f6e1b8f" name="anchor41" type="Anchor">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="180" y="390" w="10" h="10" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>e0d67b0c-f56e-4d32-be6f-a9963afa7e1e</onsuccess>
+  </stage>
+  <stage stageid="e0d67b0c-f56e-4d32-be6f-a9963afa7e1e" name="Note1" type="Note">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <narrative>Assume not running</narrative>
+    <display x="30" y="390" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>d9ecdd24-b5a8-45da-9e92-d01f83e18f6f</onsuccess>
+  </stage>
+  <stage stageid="e8c7781c-6e32-4c15-accc-597d9cba676e" name="Attach" type="Block">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="-135" y="195" w="255" h="90" />
+    <font family="Tahoma" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="22c4df6e-3cff-4add-8928-1d4863245562" name="Output" type="Block">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="300" y="15" w="165" h="60" />
+    <font family="Tahoma" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="b2916126-8286-4d82-8865-24934f8ef049" name="Input Title" type="Data">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="165" y="-45" w="150" h="30" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4bfbb1e9-a50f-4285-91c5-246765e4b58a" name="Retry Count" type="Data">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="135" y="0" w="150" h="30" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="336f015f-633c-45ed-b17a-a12976c53013" name="Retry Limit" type="Data">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <display x="120" y="45" w="150" h="30" />
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>3</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="02e2f3e8-5031-4f0f-a86c-18312b71826e" name="Time Out - 1" type="WaitEnd">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <loginhibit />
+    <display x="15" y="225" w="30" h="30" />
+    <onsuccess>bd35224f-bbe5-43ca-bc92-ecd657e96001</onsuccess>
+    <groupid>786e51f5-86a3-4295-9184-715517683788</groupid>
+  </stage>
+  <stage stageid="78ed010d-873f-4146-905e-b3ee5a9c71e7" name="1" type="WaitStart">
+    <subsheetid>0111347a-a9ec-43b3-87f7-0d8a35b26dd9</subsheetid>
+    <loginhibit />
+    <display x="75" y="225" w="30" h="30" />
+    <groupid>786e51f5-86a3-4295-9184-715517683788</groupid>
+    <choices />
+    <timeout>1</timeout>
+  </stage>
+  <stage stageid="89089ad6-ff6d-42d9-912d-c2cad0260577" name="ip1" type="Data">
+    <subsheetid>8065b665-a04c-4631-893b-f06ff367285c</subsheetid>
+    <display x="135" y="15" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">bajaj</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+</process>
