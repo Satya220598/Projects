@@ -1,0 +1,13 @@
+1. Creating the environment:
+
+In Orchestrator, go to Robots > Environments tab and click the plus button 
+Choose the robot created previously to be part of new Environment.
+2. Creating a process:
+
+Go to Processes and click the '+' button
+Choose the package published at Practice 1 and the environment created at previous step. Add a description of your process and click ‘Create' 
+3. Creating and running a job
+
+Go to Jobs 
+Click the 'Start' button 
+Select the process and the robot created previously from the environment and click Start.

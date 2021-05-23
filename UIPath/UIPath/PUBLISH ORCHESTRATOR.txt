@@ -1,0 +1,5 @@
+Open a project in UiPath Studio
+
+Click on the 'Publish' button 
+
+Select Orchestrator as the place to publish and input the release notes. Click 'Publish'

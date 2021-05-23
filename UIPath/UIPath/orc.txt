@@ -1,0 +1,11 @@
+C:\Users\AddalaNagaSatyaYogan\Documents\UiPath
+
+DESKTOP-A53GS67
+
+https://cloud.uipath.com/ibmrhisqin/IBMDefault/orchestrator_/
+
+0b37bfc7-f7d3-4342-98af-491551169180
+
+C:\Users\AddalaNagaSatyaYogan\AppData\Local\UiPath\UiPath.Studio.exe
+
+DESKTOP-A53GS67\AddalaNagaSatyaYogan
